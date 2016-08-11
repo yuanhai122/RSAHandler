@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EDE57AF1D5B23A50089763C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDE57AE1D5B23A50089763C /* main.m */; };
+		6EDE57B21D5B23A50089763C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDE57B11D5B23A50089763C /* AppDelegate.m */; };
+		6EDE57B51D5B23A50089763C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDE57B41D5B23A50089763C /* ViewController.m */; };
+		6EDE57B81D5B23A50089763C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EDE57B61D5B23A50089763C /* Main.storyboard */; };
+		6EDE57BA1D5B23A50089763C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EDE57B91D5B23A50089763C /* Assets.xcassets */; };
+		6EDE57BD1D5B23A50089763C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EDE57BB1D5B23A50089763C /* LaunchScreen.storyboard */; };
+		6EDE57C61D5B25180089763C /* CryptorTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDE57C51D5B25180089763C /* CryptorTools.m */; };
+		6EDE57C81D5B27060089763C /* p.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 6EDE57C71D5B27060089763C /* p.p12 */; };
+		6EDE57CA1D5B27180089763C /* rsacert.der in Resources */ = {isa = PBXBuildFile; fileRef = 6EDE57C91D5B27180089763C /* rsacert.der */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6EDE57AA1D5B23A50089763C /* RSA加密解密.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RSA加密解密.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EDE57AE1D5B23A50089763C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EDE57B01D5B23A50089763C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6EDE57B11D5B23A50089763C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6EDE57B31D5B23A50089763C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6EDE57B41D5B23A50089763C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6EDE57B71D5B23A50089763C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EDE57B91D5B23A50089763C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EDE57BC1D5B23A50089763C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EDE57BE1D5B23A50089763C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EDE57C41D5B25180089763C /* CryptorTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptorTools.h; sourceTree = "<group>"; };
+		6EDE57C51D5B25180089763C /* CryptorTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptorTools.m; sourceTree = "<group>"; };
+		6EDE57C71D5B27060089763C /* p.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = p.p12; sourceTree = "<group>"; };
+		6EDE57C91D5B27180089763C /* rsacert.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = rsacert.der; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EDE57A71D5B23A50089763C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EDE57A11D5B23A40089763C = {
+			isa = PBXGroup;
+			children = (
+				6EDE57AC1D5B23A50089763C /* RSA加密解密 */,
+				6EDE57AB1D5B23A50089763C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EDE57AB1D5B23A50089763C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EDE57AA1D5B23A50089763C /* RSA加密解密.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EDE57AC1D5B23A50089763C /* RSA加密解密 */ = {
+			isa = PBXGroup;
+			children = (
+				6EDE57B01D5B23A50089763C /* AppDelegate.h */,
+				6EDE57B11D5B23A50089763C /* AppDelegate.m */,
+				6EDE57B31D5B23A50089763C /* ViewController.h */,
+				6EDE57B41D5B23A50089763C /* ViewController.m */,
+				6EDE57B61D5B23A50089763C /* Main.storyboard */,
+				6EDE57B91D5B23A50089763C /* Assets.xcassets */,
+				6EDE57BB1D5B23A50089763C /* LaunchScreen.storyboard */,
+				6EDE57BE1D5B23A50089763C /* Info.plist */,
+				6EDE57C71D5B27060089763C /* p.p12 */,
+				6EDE57C91D5B27180089763C /* rsacert.der */,
+				6EDE57AD1D5B23A50089763C /* Supporting Files */,
+				6EDE57C41D5B25180089763C /* CryptorTools.h */,
+				6EDE57C51D5B25180089763C /* CryptorTools.m */,
+			);
+			path = "RSA加密解密";
+			sourceTree = "<group>";
+		};
+		6EDE57AD1D5B23A50089763C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EDE57AE1D5B23A50089763C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EDE57A91D5B23A50089763C /* RSA加密解密 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EDE57C11D5B23A50089763C /* Build configuration list for PBXNativeTarget "RSA加密解密" */;
+			buildPhases = (
+				6EDE57A61D5B23A50089763C /* Sources */,
+				6EDE57A71D5B23A50089763C /* Frameworks */,
+				6EDE57A81D5B23A50089763C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RSA加密解密";
+			productName = "RSA加密解密";
+			productReference = 6EDE57AA1D5B23A50089763C /* RSA加密解密.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EDE57A21D5B23A50089763C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "北京金溪鑫网络科技有限公司";
+				TargetAttributes = {
+					6EDE57A91D5B23A50089763C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 6EDE57A51D5B23A50089763C /* Build configuration list for PBXProject "RSA加密解密" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EDE57A11D5B23A40089763C;
+			productRefGroup = 6EDE57AB1D5B23A50089763C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EDE57A91D5B23A50089763C /* RSA加密解密 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EDE57A81D5B23A50089763C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EDE57BD1D5B23A50089763C /* LaunchScreen.storyboard in Resources */,
+				6EDE57BA1D5B23A50089763C /* Assets.xcassets in Resources */,
+				6EDE57C81D5B27060089763C /* p.p12 in Resources */,
+				6EDE57B81D5B23A50089763C /* Main.storyboard in Resources */,
+				6EDE57CA1D5B27180089763C /* rsacert.der in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EDE57A61D5B23A50089763C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EDE57B51D5B23A50089763C /* ViewController.m in Sources */,
+				6EDE57C61D5B25180089763C /* CryptorTools.m in Sources */,
+				6EDE57B21D5B23A50089763C /* AppDelegate.m in Sources */,
+				6EDE57AF1D5B23A50089763C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6EDE57B61D5B23A50089763C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EDE57B71D5B23A50089763C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EDE57BB1D5B23A50089763C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EDE57BC1D5B23A50089763C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EDE57BF1D5B23A50089763C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6EDE57C01D5B23A50089763C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EDE57C21D5B23A50089763C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RSA加密解密/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jinxixin.RSA----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6EDE57C31D5B23A50089763C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RSA加密解密/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jinxixin.RSA----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EDE57A51D5B23A50089763C /* Build configuration list for PBXProject "RSA加密解密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EDE57BF1D5B23A50089763C /* Debug */,
+				6EDE57C01D5B23A50089763C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EDE57C11D5B23A50089763C /* Build configuration list for PBXNativeTarget "RSA加密解密" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EDE57C21D5B23A50089763C /* Debug */,
+				6EDE57C31D5B23A50089763C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EDE57A21D5B23A50089763C /* Project object */;
+}
